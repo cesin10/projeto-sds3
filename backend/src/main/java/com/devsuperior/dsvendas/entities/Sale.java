@@ -1,6 +1,5 @@
 package com.devsuperior.dsvendas.entities;
 
-import java.io.Serializable;
 import java.time.LocalDate;
 
 import javax.persistence.Entity;
@@ -13,9 +12,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "tb_sales")
-public class Sale implements Serializable {
-	private static final long serialVersionUID = 1L;
-
+public class Sale{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
