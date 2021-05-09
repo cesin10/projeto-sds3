@@ -6,16 +6,13 @@ function Routes() {
     return (
        <BrowserRouter>
        <Switch>
-
            <Route path="/" exact>
             <Home />
            </Route>
-
            <Route path="/">
                <Dashboard />
             <Home />
-           </Route>
-           
+           </Route>           
        </Switch>
        </BrowserRouter>
     );
