@@ -1,4 +1,4 @@
-import DataTable from 'components/DataTable';
+
 import Dashboard from 'pages/dashboard';
 import Home from 'pages/home';
 import { Route, Switch } from 'react-router';
